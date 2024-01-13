@@ -1,0 +1,42 @@
+<!-- error.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+        }
+
+        .error-container {
+            text-align: center;
+            padding: 50px;
+        }
+
+        h1 {
+            color: #d9534f;
+        }
+    </style>
+</head>
+<body>
+    <div class="container error-container">
+        <h1 class="display-4">Oops! Something went wrong.</h1>
+        <p class="lead">We're sorry, but it seems there's been an error. Please try again later.</p>
+        <p><a class="btn btn-primary" href="/">Go back to the homepage</a></p>
+    </div>
+
+    <script>
+        // JavaScript logic to redirect to the homepage
+        document.getElementById('goHome').addEventListener('click', function() {
+            window.location.href = "index.html"; // Change to the actual filename of your home page
+        });
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
