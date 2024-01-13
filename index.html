@@ -16,7 +16,20 @@
         <h1>Welcome to My Website</h1>
        
     </div>
+    <script>
+      function checkNetworkConnection() {
+          var online = navigator.onLine;
 
+          if (!online) {
+              window.location.href = "/error.html"; 
+          }
+      }
+        
+      checkNetworkConnection();
+
+      window.addEventListener('online', checkNetworkConnection);
+      window.addEventListener('offline', checkNetworkConnection);
+  </script>
     
 </body>
 </html>
