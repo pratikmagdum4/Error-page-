@@ -25,10 +25,11 @@
     <div class="container error-container">
         <h1 class="display-4">Oops! Something went wrong.</h1>
         <p class="lead">We're sorry, but it seems there's been an error. Please try again later.</p>
-        <p><a class="btn btn-primary" href="/">Go back to the homepage</a></p>
+        <p><a id = "goHome" class="btn btn-primary" href="/">Go  to the homepage</a></p>
     </div>
 
     <script>
+       
         document.getElementById('goHome').addEventListener('click', function() {
             window.location.href = "index.html"; 
         });
