@@ -1,0 +1,113 @@
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    top: 0;
+    position: sticky;
+    height: 50px;
+    padding: 5px 5px;
+    z-index: 999;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 40px; /* Adjust the logo size as needed */
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #f29e22;
+}
+
+.company-name {
+    font-size: 1.5em;
+    font-weight: normal;
+    color: #d65d1b;
+    /*text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;*/
+}
+
+/* Navbar links */
+.navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.span-1:hover{
+    color: #ff9900;
+}
+
+.span-2:hover{
+    color: #ff9900;
+}
+
+.navbar-links li {
+    margin-right: 20px;
+}
+
+.navbar-links li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+    color: #ff9900; /* Change the color on hover */
+}
+
+/* Dropdown */
+.dropdown-wrapper {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 200px;
+    padding: 10px;
+    z-index: 1;
+}
+
+.dropdown-wrapper:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 0;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: transparent;
+}
+
+.navbar-button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signin-button {
+    padding: 10px 15px;
+    background-color: #d65d1b;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
