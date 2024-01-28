@@ -6,6 +6,7 @@ import CEO from'../../Assets/CEO.jpg'
 import InstagramIcon from '../../Assets/Icons/ColorInstagram.png';
 import TwitterIcon from '../../Assets/Icons/ColorTwitter.png';
 import LinkedInIcon from '../../Assets/Icons/Colorlinkedin.png';
+import email from '../../Assets/Icons/email.jpeg';
 
 function About() {
     const details = {
@@ -28,6 +29,7 @@ function About() {
                     { icon: InstagramIcon, link: 'https://www.instagram.com/mayank.vatsh?igsh=MWw5czZ0dmhydGpuYw/' },
                     { icon: TwitterIcon, link: 'https://twitter.com/mayankvatsh' },
                     { icon: LinkedInIcon, link: 'https://www.linkedin.com/in/mayank-vatsh?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+                    {icon: email, link:'mailto:ceo.brainwaveslearninglibrary@gmail.com'}
                 ],
             },
             {
@@ -51,6 +53,7 @@ function About() {
                     { icon: InstagramIcon, link: 'https://www.instagram.com/ravinathk/' },
                     { icon: TwitterIcon, link: 'https://twitter.com/ravinathk' },
                     { icon: LinkedInIcon, link: 'https://www.linkedin.com/in/prof-dr-ravi-nath-k-78a60a5a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+                    {icon: email, link:'mailto:ravinathkumar123@gmail.com'}
                 ],
             },
             {
@@ -61,6 +64,7 @@ function About() {
                     { icon: InstagramIcon, link: 'https://www.instagram.com/shivangi_m_14?igsh=M3F6Ym85enlmdg==' },
                     { icon: TwitterIcon, link: 'https://twitter.com/shivangimishra' },
                     { icon: LinkedInIcon, link: 'https://www.linkedin.com/in/shivangi-mishra-07a474167' },
+                    {icon: email, link:'mailto:shivangimishra1486@gmail.com'}
                 ],
             }
         ]
